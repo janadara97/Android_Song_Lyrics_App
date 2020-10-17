@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="8dp"
+    android:layout_margin="8dp"
+app:cardCornerRadius="10dp"
+    >
+
+<RelativeLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@android:color/white"
+
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+android:textSize="20dp"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:text="Ayubowewaa"
+        android:gravity="center_horizontal">
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+
+
+    </TextView>
+
+
+    <TextView
+        android:layout_marginTop="5dp"
+android:layout_marginBottom="5dp"
+        android:textFontWeight="20"
+        android:id="@+id/artist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_horizontal"
+        android:textStyle="italic"
+        android:text="Edward Jayakodi"
+        android:textAlignment="center"
+        android:textSize="15dp"
+
+
+        >
+
+    </TextView>
+
+    <TextView
+        android:layout_marginTop="5dp"
+
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_horizontal"
+        android:textStyle="italic"
+        android:text="Edward Jayakodi"
+        android:textAlignment="center"
+        android:textSize="23dp"
+
+        >
+
+    </TextView>
+</LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/song3"
+        >
+
+    </ImageView>
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="9"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+
+    <ImageView
+        android:id="@+id/clover"
+        android:layout_width="230dp"
+        android:layout_height="222dp"
+        android:elevation="6dp"
+        android:src="@drawable/clover"
+        app:layout_constraintBottom_toTopOf="@+id/textLyrics"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/textLyrics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="6dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/greeting1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WELCOME"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="143dp"
+            tools:layout_editor_absoluteY="348dp" />
+
+        <TextView
+            android:id="@+id/greeting2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LyriXs"
+            android:fontFamily="@font/font1:"
+            android:textColor="#fff"
+            android:textSize="40sp"
+            tools:layout_editor_absoluteX="134dp"
+            tools:layout_editor_absoluteY="383dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:id="@+id/textHome"
+        android:layout_width="298dp"
+        android:layout_height="140dp"
+        android:elevation="6dp"
+        android:gravity="left"
+
+
+        app:layout_constraintBottom_toTopOf="@+id/textLyrics"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.86"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/menus"
+        app:layout_constraintVertical_bias="0.19">
+
+
+        <TextView
+            android:id="@+id/greeting3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-black"
+            android:text="Explore Favourites"
+            android:textColor="#fff"
+
+            android:textSize="26sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/menus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="6dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="200dp"
+            android:orientation="vertical">
+
+            <ImageView
+
+                android:id="@+id/sinhalaB"
+                android:layout_width="wrap_content"
+                android:layout_height="85dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/sinhala">
+
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/englishB"
+
+                android:layout_width="wrap_content"
+                android:layout_height="85dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/english">
+
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/hindiB"
+
+                android:layout_width="wrap_content"
+                android:layout_height="85dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/hindi">
+
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/tamilB"
+
+                android:layout_width="wrap_content"
+                android:layout_height="85dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/tamil">
+
+            </ImageView>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <ImageView
+
+        android:id="@+id/bgapp"
+        android:layout_width="526dp"
+        android:layout_height="900dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/bgapp2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.877"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
